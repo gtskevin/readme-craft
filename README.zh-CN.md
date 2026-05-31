@@ -22,40 +22,42 @@
 
 ---
 
-## 🎬 效果对比
+## 🎬 真实 Before → After
+
+> **实际效果** — 用本 Skill 美化了 [gtskevin/ai-native-review](https://github.com/gtskevin/ai-native-review)：
 
 <table>
 <tr>
 <td width="50%">
 
-**❌ 之前** — Agent 默认输出
+**❌ 之前** — [查看原文](https://github.com/gtskevin/ai-native-review/blob/472af96/README.md)
 
 <br/>
 
-> `# my-tool`
-> 一个数据处理工具。
->
-> `npm install my-tool`
->
-> MIT
+```
+# AI-Native Design Review
 
-*平平无奇。没徽章、没社会证明。访客 3 秒内离开。*
+> Catch the #1 anti-pattern...
+
+（纯文字，无视觉，5 个文件）
+```
+
+*无 banner、无徽章、无社区文件、无 SEO。*
 
 </td>
 <td width="50%">
 
-**✅ 之后** — 使用 repo-showcase
+**✅ 之后** — [查看结果](https://github.com/gtskevin/ai-native-review)
 
 <br/>
 
-> # ✨ my-tool
-> *零配置，10 倍速数据处理*
->
-> `[npm]` `[stars]` `[coverage]` `[downloads]`
->
-> 🚀 亮点 · ⚡ 30 秒快速开始 · 🎬 演示 · ❓ FAQ · ⭐ Star History
+`![Banner]` · `# ✨ AI-Native Design Review`
 
-*专业钩子、清晰价值、社会证明、转化率优化。*
+`[Claude Code Skill]` `[MIT]` `[⭐ Stars]`
+
+🎬 效果对比 · ⚡ 30 秒上手 · 🔍 决策树 · 📊 真实案例 · ❓ FAQ · ⭐ Star History
+
+*17 个文件。SVG banner + logo。15 个 Topic。社区文件齐全。*
 
 </td>
 </tr>
@@ -63,7 +65,9 @@
 
 <div align="center">
 
-**→ 一个 prompt 搞定一切 ←**
+**一个 prompt。12 个新文件。14/15 质量检查通过。零手动操作。**
+
+**[→ 查看完整美化后的仓库 →](https://github.com/gtskevin/ai-native-review)**
 
 </div>
 

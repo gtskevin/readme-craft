@@ -23,40 +23,47 @@
 
 ---
 
-## 🎬 See the Transformation
+## 🎬 Real Before → After
+
+> **Actual result** from applying this skill to [gtskevin/ai-native-review](https://github.com/gtskevin/ai-native-review):
 
 <table>
 <tr>
 <td width="50%">
 
-**❌ Before** — typical agent output
+**❌ Before** — [see original](https://github.com/gtskevin/ai-native-review/blob/472af96/README.md)
 
 <br/>
 
-> `# my-tool`
-> A tool for processing data.
->
-> `npm install my-tool`
->
-> MIT
+```
+# AI-Native Design Review
 
-*Bland. No badges. No social proof. Visitors bounce in 3 seconds.*
+> Catch the #1 anti-pattern...
+
+A Claude Code Skill that reviews...
+
+---
+
+## What It Does
+(install instructions here)
+```
+
+*5 files. No banner. No badges. No visual. No community files. Flat, forgettable.*
 
 </td>
 <td width="50%">
 
-**✅ After** — with repo-showcase
+**✅ After** — [see result](https://github.com/gtskevin/ai-native-review)
 
 <br/>
 
-> # ✨ my-tool
-> *Process data 10× faster — zero config*
->
-> `[npm]` `[stars]` `[coverage]` `[downloads]`
->
-> 🚀 Highlights · ⚡ 30s Quick Start · 🎬 Live Demo · ❓ FAQ · ⭐ Star History
+`![Banner]` · `# ✨ AI-Native Design Review`
 
-*Professional hook, clear value, social proof, conversion-optimized flow.*
+`[Claude Code Skill]` `[MIT]` `[⭐ Stars]`
+
+🎬 Before/After demo · ⚡ 30s Quick Start · 🔍 Decision Tree · 📊 Real Example · ❓ FAQ · ⭐ Star History
+
+*17 files. SVG banner + logo. 15 GitHub Topics. Community files. Quality-checked.*
 
 </td>
 </tr>
@@ -64,7 +71,9 @@
 
 <div align="center">
 
-**→ One prompt does all of this automatically ←**
+**One prompt. 12 new files. 14/15 quality checks passed. Zero manual work.**
+
+**[→ See the full beautified repo →](https://github.com/gtskevin/ai-native-review)**
 
 </div>
 
