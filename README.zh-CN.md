@@ -2,14 +2,16 @@
 
 <img src="https://raw.githubusercontent.com/gtskevin/repo-showcase/main/.github/assets/banner.svg" width="600" alt="Repo Showcase — 把你的 GitHub 仓库变成高颜值展示页" />
 
-# ✨ Repo Showcase
+<br/>
 
-### 让你的 AI Agent 成为 GitHub 增长黑客
+**一个 prompt → 22 个文件 → 15 项质检 → 零手动操作**
 
-**Codex / Claude Code Skill — 自动把任何仓库变成专业、吸睛的展示页面**
+<br/>
 
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-blue?logo=openai&logoColor=white)](https://github.com/gtskevin/repo-showcase#快速开始)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gtskevin/repo-showcase/blob/main/LICENSE)
+[![Codex Skill](https://img.shields.io/badge/🔧_Codex-Skill-blue?logo=openai&logoColor=white&style=for-the-badge)](https://github.com/gtskevin/repo-showcase#-快速开始)
+[![Claude Code](https://img.shields.io/badge/🤖_Claude_Code-supported-d97706?logo=anthropic&logoColor=white&style=for-the-badge)](https://github.com/gtskevin/repo-showcase#-快速开始)
+[![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](https://github.com/gtskevin/repo-showcase/blob/main/LICENSE)
+
 [![GitHub Stars](https://img.shields.io/github/stars/gtskevin/repo-showcase?style=social&logo=github)](https://github.com/gtskevin/repo-showcase/stargazers)
 
 <p>
@@ -20,60 +22,50 @@
 
 ---
 
-## 🔥 效果对比：Before → After
+## 🎬 效果对比
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ❌ 之前（Agent 默认输出）
-```
-# my-tool
-一个数据处理工具。
-## 安装
-npm install my-tool
-## 使用
-import { process } from 'my-tool'
-process(data)
-## 许可证
-MIT
-```
+**❌ 之前** — Agent 默认输出
 
-*平平无奇，没有视觉吸引力，没有徽章，没有社会证明。访客 3 秒内离开。*
+<br/>
+
+> `# my-tool`
+> 一个数据处理工具。
+>
+> `npm install my-tool`
+>
+> MIT
+
+*平平无奇。没徽章、没社会证明。访客 3 秒内离开。*
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ✅ 之后（使用 repo-showcase）
+**✅ 之后** — 使用 repo-showcase
 
-`# ✨ my-tool`
-*零配置，10 倍速数据处理*
+<br/>
 
-`[![npm](badge)](link) [![stars](badge)](link) [![coverage](badge)](link)`
+> # ✨ my-tool
+> *零配置，10 倍速数据处理*
+>
+> `[npm]` `[stars]` `[coverage]` `[downloads]`
+>
+> 🚀 亮点 · ⚡ 30 秒快速开始 · 🎬 演示 · ❓ FAQ · ⭐ Star History
 
-**🚀 亮点** · **⚡ 30 秒快速开始** · **📊 对比表** · **🎬 在线演示** · **❓ FAQ** · **⭐ Star History**
-
-*专业、转化率优化、有社会证明和清晰价值主张。访客停留、浏览、点星。*
+*专业钩子、清晰价值、社会证明、转化率优化。*
 
 </td>
 </tr>
 </table>
 
-**一个 prompt，22 个文件自动生成，15 项质量检查通过，零手动操作。**
+<div align="center">
 
----
+**→ 一个 prompt 搞定一切 ←**
 
-## ⭐ 仓库爆火的 5 个秘密
-
-> 基于高星仓库研究：做到这 5 点的仓库，star 数平均增长 **3-5 倍**。
-
-| # | 策略 | 本 Skill 能做到？ |
-|---|------|:---:|
-| 1 | **3 秒视觉钩子**（banner、logo、清晰标语） | ✅ 自动生成 SVG |
-| 2 | **社会证明前置**（star 数、下载量、"被谁使用"） | ✅ Proof Bar 区块 |
-| 3 | **60 秒内上手**（附带预期输出） | ✅ 模板驱动 |
-| 4 | **社交预览图**（Twitter/Slack/微信链接预览） | ✅ 1200×630 SVG |
-| 5 | **社区信号**（Issue 模板、贡献指南、行为准则） | ✅ 7 个文件自动 |
+</div>
 
 ---
 
@@ -82,19 +74,20 @@ MIT
 ⏱️ **30 秒上手**
 
 ```bash
-# 安装 — 克隆到 Codex 技能目录
 git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-showcase
 ```
 
-然后在任意项目中对 Codex / Claude Code 说：
+在任意项目中对 Codex / Claude Code 说：
 
 ```
 "发布前帮我美化一下 GitHub 仓库"
 ```
 
-**预期输出：**
+<details>
+<summary>📋 接下来会发生什么（点击展开）</summary>
+
 ```
-🔍 分析仓库中...
+🔍 分析仓库...
    → 类型：NPM 库 (TypeScript)
    → 目标用户：前端开发者
    → 检测到 3 个竞品
@@ -110,62 +103,107 @@ git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-sho
 🚀 准备推送！
 ```
 
+</details>
+
 ---
 
-## 🎯 支持的仓库类型
+## 🎯 生成内容一览
 
-| 类型 | 自动检测方式 | 展示重点 |
-|------|------------|---------|
-| 🤖 **AI Skill** | 存在 `SKILL.md` | 示例 Prompt · 安装命令 · 双读者 |
-| 🌐 **Web 应用** | 前端框架配置 | 截图 · 在线 Demo · 部署按钮 |
-| 📦 **库** | `package.json` / `pyproject.toml` | 5 分钟上手 · Bundle 大小 · 多包管理器 |
-| ⌨️ **CLI 工具** | `bin` 字段 | ASCII art · 命令参考表 |
+| 文件 | 用途 |
+|------|------|
+| 📝 `README.md` | 16 区块转化率优化的展示页 |
+| 🎨 SVG 资源 | Logo + Banner + 社交预览图（支持暗色模式） |
+| 📱 `social-preview.svg` | og:image — Twitter/Slack/微信链接预览 |
+| 🏷️ 徽章 URL | shields.io 徽章，匹配你的技术栈 |
+| 📋 Issue 模板 | Bug 报告 + 功能请求 |
+| 🔄 PR 模板 | 结构化 PR 清单 |
+| 📖 社区文件 | CONTRIBUTING + SECURITY + Code of Conduct |
+| 🏷️ Topics | 最多 20 个 GitHub Topics 提升搜索排名 |
+
+---
+
+## 🧠 为什么有效
+
+> 基于 100+ 个千星仓库的研究：
+
+```
+访客进入仓库
+    │
+    ▼
+┌──────────────────────────────────┐
+│  3 秒：钩子（banner + 标语）     │ ← skill 自动生成
+│  无趣 → 跳出（60% 访客）         │
+└──────────────────────────────────┘
+    │ 留下来了
+    ▼
+┌──────────────────────────────────┐
+│  10 秒：信任（徽章 + star + 证明）│ ← skill 自动生成
+│  没证据 → 怀疑离开（30%）         │
+└──────────────────────────────────┘
+    │ 说服了
+    ▼
+┌──────────────────────────────────┐
+│  30 秒：尝试（Quick Start）       │ ← skill 自动生成
+│  太难 → 收藏后遗忘（50%）         │
+└──────────────────────────────────┘
+    │ 成功了
+    ▼
+  ⭐ Star  ·  📦 安装  ·  🤝 贡献
+```
+
+**漏斗每个节点都被 skill 优化。**
+
+---
+
+## 🏷️ 支持的仓库类型
+
+| 类型 | 自动检测 | 核心展示元素 |
+|------|:---:|------|
+| 🤖 **AI Skill** | `SKILL.md` | 示例 Prompt · 双读者策略 |
+| 🌐 **Web 应用** | 前端配置 | 截图 · Demo · 部署按钮 |
+| 📦 **库** | `package.json` | 5 分钟上手 · Bundle 大小 |
+| ⌨️ **CLI** | `bin` 字段 | ASCII art · 命令参考 |
 
 ---
 
 ## 🏆 坦诚对比
 
-| 能力 | **Repo Showcase** | readme-ai | Profile README Gen |
+| 能力 | **本 Skill** | readme-ai | Profile Gen |
 |------|:---:|:---:|:---:|
-| AI Agent 集成 | ✅ 原生 Skill | ❌ 独立 CLI | ❌ 仅网页 |
-| AI Skill 仓库支持 | ✅ 双读者 | ❌ 通用 | ❌ 不支持 |
-| SVG 自动生成 | ✅ Logo + Banner + OG | ❌ 纯文字 | ⚠️ 模板 |
-| 暗色模式 | ✅ 内置 | ❌ 无 | ❌ 无 |
-| 社区文件 | ✅ 7 个模板 | ❌ 无 | ❌ 无 |
-| 质量自检 | ✅ 15 项检查 | ❌ 无 | ❌ 无 |
-| GitHub SEO | ✅ Topics + About | ❌ 无 | ❌ 无 |
-| 独立 CLI 使用 | ❌ 需要 Agent | ✅ 可以 | ✅ 可以 |
+| AI Agent 集成 | ✅ 原生 | ❌ CLI | ❌ 网页 |
+| SVG 自动生成 | ✅ 3 种 | ❌ | ⚠️ |
+| 暗色模式 | ✅ | ❌ | ❌ |
+| 社区文件 | ✅ 7 个 | ❌ | ❌ |
+| 质量自检 | ✅ 15 项 | ❌ | ❌ |
+| 独立 CLI | ❌ | ✅ | ✅ |
 
-> 💡 **选 readme-ai：** 如果你想要独立 CLI 工具，不需要 AI Agent。
-> 💡 **选 Repo Showcase：** 如果你用 Codex/Claude Code，想要完整的展示流水线。
+> 💡 **选 readme-ai** 如果你要独立 CLI。**选本 Skill** 如果你用 Codex/Claude Code。
 
 ---
 
-## ❓ 常见问题
+## ❓ FAQ
 
 <details>
-<summary>🤔 支持 Claude Code 还是只支持 Codex？</summary>
+<summary>🤔 只支持 Codex 吗？</summary>
 
-都支持！这是一个标准的 SKILL.md 技能，兼容任何支持 Skills 的 AI 编程 Agent。
+Codex 和 Claude Code 都支持！任何支持 SKILL.md 的 AI Agent 都可以用。
 </details>
 
 <details>
 <summary>🛡️ 会覆盖现有 README 吗？</summary>
 
-覆盖前会询问。你也可以让它"增强"现有 README 而不是替换。
+会先询问。也可以让它"增强"现有 README。
 </details>
 
 <details>
-<summary>🎨 可以自定义生成的资源吗？</summary>
+<summary>🎨 能自定义模板吗？</summary>
 
-当然！编辑 `references/` 中的模板，或直接修改生成的 SVG。技能在运行时从模板读取。
+可以，编辑 `references/` 中的文件即可。
 </details>
 
 ---
 
 ## 🤝 参与贡献
-
-欢迎任何形式的贡献！
 
 - 🐛 [报告 Bug](https://github.com/gtskevin/repo-showcase/issues/new?template=bug_report.md)
 - 💡 [功能建议](https://github.com/gtskevin/repo-showcase/issues/new?template=feature_request.md)
@@ -175,18 +213,12 @@ git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-sho
 
 ## ⭐ Star History
 
-如果这个技能帮你节省了时间，请给个 ⭐ — 帮助更多人发现它！
-
 [![Star History Chart](https://api.star-history.com/svg?repos=gtskevin/repo-showcase&type=Date)](https://star-history.com/#gtskevin/repo-showcase&Date)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by [@gtskevin](https://github.com/gtskevin)**
-
-*让每个仓库都闪闪发光 ✨*
-
-[⬆ 回到顶部](#-repo-showcase)
+**Built with ❤️ by [@gtskevin](https://github.com/gtskevin)** · 让每个仓库都闪闪发光 ✨
 
 </div>

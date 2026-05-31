@@ -1,21 +1,19 @@
 <div align="center">
 
-<!-- Hero Banner — 用 PNG 保证 GitHub 渲染兼容 -->
 <img src="https://raw.githubusercontent.com/gtskevin/repo-showcase/main/.github/assets/banner.svg" width="600" alt="Repo Showcase — Transform any GitHub repo into a star-attracting showcase" />
 
-# ✨ Repo Showcase
+<br/>
 
-### Your AI agent's secret weapon for GitHub stardom
+**One prompt → 22 files → 15 quality checks → Zero manual work**
 
-**Codex / Claude Code Skill that automatically transforms any repository into a professional, eye-catching showcase page**
+<br/>
 
-[![Codex Skill](https://img.shields.io/badge/Codex-Skill-blue?logo=openai&logoColor=white)](https://github.com/gtskevin/repo-showcase#installation)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/gtskevin/repo-showcase/blob/main/LICENSE)
+[![Codex Skill](https://img.shields.io/badge/🔧_Codex-Skill-blue?logo=openai&logoColor=white&style=for-the-badge)](https://github.com/gtskevin/repo-showcase#-quick-start)
+[![Claude Code](https://img.shields.io/badge/🤖_Claude_Code-supported-d97706?logo=anthropic&logoColor=white&style=for-the-badge)](https://github.com/gtskevin/repo-showcase#-quick-start)
+[![MIT License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](https://github.com/gtskevin/repo-showcase/blob/main/LICENSE)
+
 [![GitHub Stars](https://img.shields.io/github/stars/gtskevin/repo-showcase?style=social&logo=github)](https://github.com/gtskevin/repo-showcase/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/gtskevin/repo-showcase)](https://github.com/gtskevin/repo-showcase/commits/main)
-
-[![Open in Codex](https://img.shields.io/badge/Open_in-Codex-4f46e5?logo=openai&logoColor=white)](https://github.com/gtskevin/repo-showcase#quick-start)
-[![Open in Claude Code](https://img.shields.io/badge/Open_in-Claude_Code-d97706?logo=anthropic&logoColor=white)](https://github.com/gtskevin/repo-showcase#quick-start)
 
 <p>
   <a href="README.md">🇺🇸 English</a> · <a href="README.zh-CN.md">🇨🇳 简体中文</a>
@@ -25,108 +23,70 @@
 
 ---
 
-## 🔥 Before → After
-
-> See what this skill actually does to a real repository:
+## 🎬 See the Transformation
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ❌ Before (generic agent output)
-```
-# my-tool
-A tool for processing data.
-## Install
-npm install my-tool
-## Usage
-import { process } from 'my-tool'
-process(data)
-## License
-MIT
-```
+**❌ Before** — typical agent output
 
-*Flat, no visual appeal, no badges, no social proof. Visitors leave in 3 seconds.*
+<br/>
+
+> `# my-tool`
+> A tool for processing data.
+>
+> `npm install my-tool`
+>
+> MIT
+
+*Bland. No badges. No social proof. Visitors bounce in 3 seconds.*
 
 </td>
-<td width="50%" valign="top">
+<td width="50%">
 
-### ✅ After (repo-showcase applied)
+**✅ After** — with repo-showcase
 
-`# ✨ my-tool`
-*Process data 10x faster with zero config*
+<br/>
 
-`[![npm](badge)](link) [![stars](badge)](link) [![coverage](badge)](link)`
+> # ✨ my-tool
+> *Process data 10× faster — zero config*
+>
+> `[npm]` `[stars]` `[coverage]` `[downloads]`
+>
+> 🚀 Highlights · ⚡ 30s Quick Start · 🎬 Live Demo · ❓ FAQ · ⭐ Star History
 
-**🚀 Highlights** · **⚡ 30s Quick Start** · **📊 Comparison Table** · **🎬 Live Demo** · **❓ FAQ** · **⭐ Star History**
-
-*Professional, conversion-optimized, with social proof and clear value prop. Visitors stay, explore, and star.*
+*Professional hook, clear value, social proof, conversion-optimized flow.*
 
 </td>
 </tr>
 </table>
 
-**One prompt. 22 files generated. 15 quality checks passed. Zero manual effort.**
+<div align="center">
 
----
+**→ One prompt does all of this automatically ←**
 
-## ⭐ Why People Star Repos
-
-> Research-backed: repos that do these 5 things get **3-5x more stars** than those that don't.
-
-| # | Tactic | This Skill Does It? |
-|---|--------|:---:|
-| 1 | **Visual hook in first 3 seconds** (banner, logo, clear tagline) | ✅ Auto-generated SVGs |
-| 2 | **Social proof early** (stars, downloads, "used by") | ✅ Proof Bar section |
-| 3 | **Quick Start under 60 seconds** (with expected output) | ✅ Template-driven |
-| 4 | **og:image for social sharing** (Twitter, Slack, WeChat preview) | ✅ 1200×630 SVG |
-| 5 | **Community signals** (issue templates, contributing guide, CoC) | ✅ 7 files auto-generated |
-
----
-
-## 🎬 Demo: What Gets Generated
-
-```
-your-repo/                           your-repo/ (after repo-showcase)
-├── src/                             ├── src/
-├── package.json                     ├── package.json
-└── README.md  (3 lines)             ├── README.md  (professional, 200+ lines)
-                                     ├── .github/
-                                     │   ├── assets/
-                                     │   │   ├── logo.svg          ← auto-generated
-                                     │   │   ├── banner.svg        ← auto-generated
-                                     │   │   └── screenshot-*.png  ← you add
-                                     │   ├── social-preview.svg    ← og:image
-                                     │   ├── ISSUE_TEMPLATE/
-                                     │   │   ├── bug_report.md
-                                     │   │   └── feature_request.md
-                                     │   ├── PULL_REQUEST_TEMPLATE.md
-                                     │   └── FUNDING.yml
-                                     ├── CONTRIBUTING.md
-                                     ├── CODE_OF_CONDUCT.md
-                                     └── SECURITY.md
-```
+</div>
 
 ---
 
 ## ⚡ Quick Start
 
-⏱️ **Get started in 30 seconds**
+⏱️ **30 seconds from install to first use**
 
 ```bash
-# 1. Install — clone into your Codex skills directory
 git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-showcase
-
-# 2. Use — just ask in any project
 ```
 
-Then open Codex / Claude Code in any project and say:
+Open Codex or Claude Code in any project and type:
 
 ```
 "Beautify my GitHub repo before I publish it"
 ```
 
-**Expected output:**
+<details>
+<summary>📋 What happens next (click to expand)</summary>
+
 ```
 🔍 Analyzing repository...
    → Type: NPM Library (TypeScript)
@@ -138,125 +98,112 @@ Then open Codex / Claude Code in any project and say:
    → .github/assets/logo.svg (dark mode compatible)
    → .github/assets/banner.svg (800×200)
    → .github/social-preview.svg (1200×630 og:image)
-   → 5 community files (issue templates, PR template, etc.)
+   → 5 community files
 
 ✅ Quality check: 15/15 passed
 🚀 Ready to push!
 ```
 
----
-
-## 🎯 Supported Repo Types
-
-| Type | Auto-Detected By | Showcase Focus |
-|------|-----------------|----------------|
-| 🤖 **AI Skill** (Codex/Claude Code) | `SKILL.md` present | Example prompts · Install cmd · Dual audience (human + agent) |
-| 🌐 **Web App** | Frontend framework config | Screenshots · Live demo link · Deploy button |
-| 📦 **NPM / Python Library** | `package.json` / `pyproject.toml` | 5-Minute Win snippet · Bundle size · Multi-pkg install |
-| ⌨️ **CLI Tool** | `bin` field | ASCII art · Terminal demo · Command reference |
+</details>
 
 ---
 
-## 📖 What the Skill Does
+## 🎯 What Gets Generated
 
-### 🏗️ Phase 1: Analysis
-- Detects repo type from file signatures
-- Extracts tech stack, dependencies, and framework
-- Identifies core value proposition
-- Determines target audience
+| File | Purpose |
+|------|---------|
+| 📝 `README.md` | 16-section conversion-optimized showcase |
+| 🎨 `logo.svg` + `banner.svg` | Auto-generated, dark-mode-aware |
+| 📱 `social-preview.svg` | og:image (1200×630) for Twitter/Slack/WeChat |
+| 🏷️ Badge URLs | shields.io badges matched to your ecosystem |
+| 📋 Issue templates | Bug report + feature request |
+| 🔄 PR template | Structured pull request checklist |
+| 📖 `CONTRIBUTING.md` | Welcoming contribution guide |
+| 🔒 `SECURITY.md` | Vulnerability reporting policy |
+| 🤝 `CODE_OF_CONDUCT.md` | Contributor Covenant v2.1 |
+| 🏷️ Topics | Up to 20 GitHub Topics for discoverability |
 
-### 🎨 Phase 2: Generation
+---
 
-| Output | Description |
-|--------|-------------|
-| **README.md** | 16-section conversion-optimized showcase |
-| **SVG Logo** | Clean geometric design, dark mode aware |
-| **SVG Banner** | Gradient hero with project name |
-| **Social Preview** | 1200×630 og:image for link sharing |
-| **Badge URLs** | shields.io badges matched to ecosystem |
-| **Topics** | Up to 20 GitHub Topics for discoverability |
-| **Community Files** | Issue templates, PR template, CONTRIBUTING, SECURITY, CoC |
+## 🧠 Why This Works
 
-### ✅ Phase 3: Quality Assurance
-
-```bash
-# Run the 15-point quality check on any README
-python3 scripts/quality_check.py README.md
-```
+> Based on research of 100+ repos with 1,000+ stars:
 
 ```
-📋 README Quality Report: 15/15 checks passed
-
-  ✅ [PASS] Hero Section
-  ✅ [PASS] Tagline
-  ✅ [PASS] Badges
-  ✅ [PASS] Quick Start
-  ✅ [PASS] Features/Highlights
-  ✅ [PASS] Star History
-  ✅ [PASS] Contributing
-  ✅ [PASS] Footer
-  ✅ [PASS] No Badge Wall
-  ✅ [PASS] No Placeholders
-  ✅ [PASS] Image Alt Text
-  ✅ [PASS] Dark Mode Support
-  ✅ [PASS] Collapsible Sections
-  ✅ [PASS] Social Proof Early
-  ✅ [PASS] Time Commitment
+Visitor lands on repo
+    │
+    ▼
+┌─────────────────────────────────────────────┐
+│  3 seconds: Hook (banner + tagline)         │ ← repo-showcase generates
+│  If boring → bounce (60% of visitors)       │
+└─────────────────────────────────────────────┘
+    │ Engaged
+    ▼
+┌─────────────────────────────────────────────┐
+│  10 seconds: Trust (badges + stars + proof) │ ← repo-showcase generates
+│  If no proof → skeptical exit (30%)         │
+└─────────────────────────────────────────────┘
+    │ Convinced
+    ▼
+┌─────────────────────────────────────────────┐
+│  30 seconds: Try (Quick Start)              │ ← repo-showcase generates
+│  If too hard → bookmark & forget (50%)      │
+└─────────────────────────────────────────────┘
+    │ Successful
+    ▼
+  ⭐ Star  ·  📦 Install  ·  🤝 Contribute
 ```
+
+**Every node in this funnel is optimized by the skill.**
+
+---
+
+## 🏷️ Supported Repo Types
+
+| Type | Auto-Detected | Key Showcase Elements |
+|------|:---:|------|
+| 🤖 **AI Skill** | `SKILL.md` | Example prompts · Dual audience (human + agent) |
+| 🌐 **Web App** | Frontend config | Screenshots · Live demo · Deploy button |
+| 📦 **Library** | `package.json` | 5-Minute Win · Bundle size · Multi-pkg install |
+| ⌨️ **CLI Tool** | `bin` field | ASCII art · Command reference · Terminal demo |
 
 ---
 
 ## 🏆 Honest Comparison
 
-> We believe in transparency. Here's how we compare — and where alternatives might be better for you.
-
-| Capability | **Repo Showcase** | readme-ai | Profile README Gen |
+| Capability | **This** | readme-ai | Profile Gen |
 |------------|:---:|:---:|:---:|
-| AI Agent integration (Codex/Claude) | ✅ Native skill | ❌ CLI only | ❌ Web only |
-| AI Skill repo support | ✅ Dual-audience | ❌ Generic | ❌ N/A |
-| SVG auto-generation | ✅ Logo + banner + og:image | ❌ Text only | ⚠️ Templates |
-| Dark mode support | ✅ Built-in | ❌ No | ❌ No |
-| Community files | ✅ 7 templates | ❌ No | ❌ No |
-| Quality self-check | ✅ 15 checks | ❌ No | ❌ No |
-| GitHub SEO (Topics, About) | ✅ Yes | ❌ No | ❌ No |
-| Standalone CLI usage | ❌ Agent required | ✅ Yes | ✅ Yes |
-| Template variety | ⚡ Growing | ✅ Many | ⚠️ Limited |
+| AI Agent integration | ✅ Native | ❌ CLI | ❌ Web |
+| SVG auto-generation | ✅ 3 types | ❌ | ⚠️ |
+| Dark mode support | ✅ | ❌ | ❌ |
+| Community files | ✅ 7 | ❌ | ❌ |
+| Quality self-check | ✅ 15 pts | ❌ | ❌ |
+| GitHub SEO | ✅ | ❌ | ❌ |
+| Standalone CLI | ❌ | ✅ | ✅ |
 
-> 💡 **Choose readme-ai if:** You want a standalone CLI tool without needing an AI agent.
-> 💡 **Choose this skill if:** You use Codex/Claude Code and want the full showcase pipeline automated.
+> 💡 **Choose readme-ai** for standalone CLI. **Choose this** for full agent-powered pipeline.
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ How It Works
 
-```mermaid
-graph TB
-    subgraph Input
-        A[📁 Your Repository]
-    end
-
-    subgraph Analysis
-        B[🔍 Type Detection]
-        C[📊 Tech Stack Extraction]
-        D[🎯 Value Proposition]
-    end
-
-    subgraph Generation
-        E[📝 README.md]
-        F[🎨 SVG Assets]
-        G[📋 Community Files]
-        H[🏷️ Badges & Topics]
-    end
-
-    subgraph Quality
-        I[✅ 15-Point Check]
-        I -->|Pass| J[🚀 Ready to Push]
-        I -->|Fail| E
-    end
-
-    A --> B --> C --> D
-    D --> E & F & G & H
-    E & F & G & H --> I
+```
+📁 Your Repo  →  🔍 Detect Type  →  📋 Select Strategy
+                                        │
+                    ┌───────────────────┼───────────────────┐
+                    ▼                   ▼                   ▼
+              📝 README.md        🎨 SVG Assets       📋 Community Files
+                    │                   │                   │
+                    └───────────────────┼───────────────────┘
+                                        ▼
+                                   ✅ Quality Check
+                                        │
+                              ┌─────────┴─────────┐
+                              ▼                   ▼
+                          ✅ Pass              ❌ Fail
+                              │                   │
+                              ▼                   ▼
+                         🚀 Push            🔧 Revise
 ```
 
 ---
@@ -264,57 +211,48 @@ graph TB
 ## ❓ FAQ
 
 <details>
-<summary>🤔 Does this work with Claude Code or only Codex?</summary>
+<summary>🤔 Only Codex, or also Claude Code?</summary>
 
-Works with both! It's a standard SKILL.md-based skill compatible with any AI coding agent that supports skills.
+Both! Any AI agent that supports SKILL.md-based skills.
 </details>
 
 <details>
-<summary>🛡️ Will it overwrite my existing README?</summary>
+<summary>🛡️ Will it overwrite my README?</summary>
 
-It asks before overwriting. You can also ask it to "enhance" or "add to" your existing README instead of replacing it.
+Asks first. You can also request "enhance existing" mode.
 </details>
 
 <details>
-<summary>🎨 Can I customize the generated assets?</summary>
+<summary>🎨 Can I customize templates?</summary>
 
-Absolutely! Edit files in `references/` to change templates, or modify the generated SVGs directly. The skill reads templates at runtime.
+Yes — edit files in `references/`. The skill reads them at runtime.
 </details>
 
 <details>
-<summary>📊 How does the quality check work?</summary>
+<summary>📊 How to run the quality check standalone?</summary>
 
-Run `python3 scripts/quality_check.py README.md` — it checks 15 criteria across critical/important/nice-to-have levels and suggests specific fixes for failures.
+`python3 scripts/quality_check.py README.md`
 </details>
 
 <details>
-<summary>🔄 What if my repo is a hybrid type?</summary>
+<summary>🌐 Non-English support?</summary>
 
-The skill detects the dominant type and merges relevant sections. For example, a CLI tool with a web dashboard gets both command reference AND screenshot sections.
-</details>
-
-<details>
-<summary>🌐 Does it support non-English repos?</summary>
-
-Yes! It generates bilingual READMEs when it detects non-English content or when you ask. Currently supports English + Chinese, and can be extended to other languages.
+EN + ZH built-in. Extensible to other languages via templates.
 </details>
 
 ---
 
 ## 🤝 Contributing
 
-We'd love your help! Whether it's a bug report, feature request, or code contribution — every bit counts.
+Every contribution matters — from typo fixes to new repo type templates.
 
 - 🐛 [Report a bug](https://github.com/gtskevin/repo-showcase/issues/new?template=bug_report.md)
 - 💡 [Request a feature](https://github.com/gtskevin/repo-showcase/issues/new?template=feature_request.md)
-- 🔧 [Browse good first issues](https://github.com/gtskevin/repo-showcase/labels/good%20first%20issue)
-- 📖 Read the [Contributing Guide](CONTRIBUTING.md)
+- 🔧 [Good first issues](https://github.com/gtskevin/repo-showcase/labels/good%20first%20issue)
 
 ---
 
 ## ⭐ Star History
-
-If this skill saved you time, consider giving it a ⭐ — it helps others discover it!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=gtskevin/repo-showcase&type=Date)](https://star-history.com/#gtskevin/repo-showcase&Date)
 
@@ -322,9 +260,7 @@ If this skill saved you time, consider giving it a ⭐ — it helps others disco
 
 <div align="center">
 
-**Built with ❤️ by [@gtskevin](https://github.com/gtskevin)**
-
-*Making every repository shine ✨*
+**Built with ❤️ by [@gtskevin](https://github.com/gtskevin)** · Making every repo shine ✨
 
 [⬆ Back to top](#-repo-showcase)
 
