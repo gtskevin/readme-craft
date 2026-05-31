@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .banner-bg { fill: #0f172a; }
+      }
+    </style>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="50%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect class="banner-bg" width="800" height="200" rx="12" fill="url(#bgGrad)"/>
+  <!-- Decorative elements -->
+  <circle cx="80" cy="100" r="45" fill="white" opacity="0.05"/>
+  <circle cx="720" cy="60" r="80" fill="white" opacity="0.03"/>
+  <circle cx="680" cy="160" r="35" fill="white" opacity="0.04"/>
+  <!-- Stars decoration -->
+  <path d="M50 40 L53 48 L61 48 L55 53 L57 61 L50 56 L43 61 L45 53 L39 48 L47 48 Z" fill="white" opacity="0.3"/>
+  <path d="M740 130 L742 136 L749 136 L744 140 L746 146 L740 142 L734 146 L736 140 L731 136 L738 136 Z" fill="white" opacity="0.2"/>
+  <!-- Text -->
+  <text x="400" y="85" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="bold" fill="white">✨ Repo Showcase</text>
+  <text x="400" y="125" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.85)">Transform any GitHub repo into a star-attracting showcase</text>
+  <text x="400" y="160" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">Codex Skill • Claude Code • AI Agent</text>
+</svg>

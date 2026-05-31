@@ -1,0 +1,3 @@
+display_name: "Repo Showcase"
+short_description: "Beautify and optimize GitHub repositories to attract users and stars. Generates professional READMEs, badges, social previews, and community files."
+default_prompt: "Make my GitHub repository look professional and attractive to get more stars"

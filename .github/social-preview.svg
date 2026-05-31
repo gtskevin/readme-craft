@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .sp-bg { fill: #0f172a; }
+        .sp-title { fill: #f8fafc; }
+        .sp-desc { fill: #cbd5e1; }
+      }
+    </style>
+    <linearGradient id="spGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect class="sp-bg" width="1200" height="630" fill="url(#spGrad)"/>
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="120" r="200" fill="white" opacity="0.03"/>
+  <circle cx="150" cy="500" r="150" fill="white" opacity="0.04"/>
+  <!-- Logo area -->
+  <rect x="80" y="235" width="120" height="120" rx="28" fill="rgba(255,255,255,0.15)"/>
+  <path d="M140 265 L148 285 L170 285 L152 298 L159 318 L140 305 L121 318 L128 298 L110 285 L132 285 Z" fill="white" opacity="0.95"/>
+  <!-- Title -->
+  <text class="sp-title" x="240" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="bold" fill="white">Repo Showcase</text>
+  <!-- Description -->
+  <text class="sp-desc" x="240" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="rgba(255,255,255,0.8)">Transform any GitHub repository into a</text>
+  <text class="sp-desc" x="240" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="rgba(255,255,255,0.8)">professional, star-attracting showcase</text>
+  <!-- Feature pills -->
+  <rect x="240" y="390" width="140" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+  <text x="310" y="411" text-anchor="middle" font-family="system-ui" font-size="14" fill="white">Auto README</text>
+  <rect x="400" y="390" width="120" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+  <text x="460" y="411" text-anchor="middle" font-family="system-ui" font-size="14" fill="white">SVG Assets</text>
+  <rect x="540" y="390" width="130" height="32" rx="16" fill="rgba(255,255,255,0.15)"/>
+  <text x="605" y="411" text-anchor="middle" font-family="system-ui" font-size="14" fill="white">SEO Optimize</text>
+  <!-- Bottom bar -->
+  <rect x="0" y="560" width="1200" height="70" fill="rgba(0,0,0,0.2)"/>
+  <text x="80" y="602" font-family="system-ui" font-size="18" fill="rgba(255,255,255,0.7)">⭐ Star this repo  ·  📦 Codex Skill  ·  🔗 github.com/gtskevin/repo-showcase</text>
+</svg>
