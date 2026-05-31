@@ -4,7 +4,7 @@
 
 <br/>
 
-**一个 prompt → 22 个文件 → 15 项质检 → 零手动操作**
+**一个 prompt → 专业 README + SVG + 社区文件 → 7 项质检 → 零手动操作**
 
 <br/>
 
@@ -65,7 +65,7 @@
 
 <div align="center">
 
-**一个 prompt。12 个新文件。14/15 质量检查通过。零手动操作。**
+**一个 prompt。所有核心文件。质量检查通过。零手动操作。**
 
 **[→ 查看完整美化后的仓库 →](https://github.com/gtskevin/ai-native-review)**
 
@@ -113,16 +113,23 @@ rm -rf repo-showcase
 🔍 分析仓库...
    → 类型：NPM 库 (TypeScript)
    → 目标用户：前端开发者
+   → 仓库状态：新仓库（< 50 stars）
    → 检测到 3 个竞品
 
-📝 生成展示文件...
-   → README.md（16 个区块，转化率优化）
-   → .github/assets/logo.svg（支持暗色模式）
-   → .github/assets/banner.svg（800×200）
-   → .github/social-preview.svg（1200×630 og:image）
-   → 5 个社区文件
+📝 生成 P0 文件...
+   → README.md（hero + 核心卖点 + 高亮点 + 快速上手 + 工作原理）
+   → assets/banner.svg（支持暗色模式，800×200）
 
-✅ 质量检查：15/15 全部通过
+📝 生成 P1 文件...
+   → .github/social-preview.svg（1200×630 og:image）
+   → 徽章（npm 版本、license、build）
+
+📝 生成 P2 文件...
+   → Issue + PR 模板
+   → CONTRIBUTING.md
+   → GitHub topics（推荐 15 个）
+
+✅ 质量检查：7/7 全部通过
 🚀 准备推送！
 ```
 
@@ -132,16 +139,19 @@ rm -rf repo-showcase
 
 ## 🎯 生成内容一览
 
-| 文件 | 用途 |
-|------|------|
-| 📝 `README.md` | 16 区块转化率优化的展示页 |
-| 🎨 SVG 资源 | Logo + Banner + 社交预览图（支持暗色模式） |
-| 📱 `social-preview.svg` | og:image — Twitter/Slack/微信链接预览 |
-| 🏷️ 徽章 URL | shields.io 徽章，匹配你的技术栈 |
-| 📋 Issue 模板 | Bug 报告 + 功能请求 |
-| 🔄 PR 模板 | 结构化 PR 清单 |
-| 📖 社区文件 | CONTRIBUTING + SECURITY + Code of Conduct |
-| 🏷️ Topics | 最多 20 个 GitHub Topics 提升搜索排名 |
+按优先级生成 — P0 优先，P1/P2 视情况生成：
+
+| 优先级 | 文件 | 用途 |
+|--------|------|------|
+| **P0** | `README.md` | Hero + 核心卖点 + 高亮点 + 快速上手 + 工作原理 |
+| **P0** | `banner.svg` | 自动生成，支持暗色模式 |
+| **P1** | `social-preview.svg` | og:image — Twitter/Slack/微信链接预览 |
+| **P1** | 徽章 | shields.io 徽章，匹配你的技术栈 |
+| **P2** | Issue 模板 | Bug 报告 + 功能请求 |
+| **P2** | PR 模板 | 结构化 PR 清单 |
+| **P2** | `CONTRIBUTING.md` | 友好的贡献指南 |
+| **P2** | GitHub Topics | 最多 20 个 Topic 提升搜索排名 |
+| 按需 | `CODE_OF_CONDUCT.md`、`SECURITY.md`、`FUNDING.yml` | 更多社区文件 |
 
 ---
 
@@ -196,8 +206,11 @@ rm -rf repo-showcase
 | AI Agent 集成 | ✅ 原生 | ❌ CLI | ❌ 网页 |
 | SVG 自动生成 | ✅ 3 种 | ❌ | ⚠️ |
 | 暗色模式 | ✅ | ❌ | ❌ |
-| 社区文件 | ✅ 7 个 | ❌ | ❌ |
-| 质量自检 | ✅ 15 项 | ❌ | ❌ |
+| 社区文件 | ✅ 按需生成 | ❌ | ❌ |
+| 质量自检 | ✅ 7 项 | ❌ | ❌ |
+| 新/老仓库策略 | ✅ | ❌ | ❌ |
+| 双语 README | ✅ | ❌ | ❌ |
+| GitHub SEO | ✅ | ❌ | ❌ |
 | 独立 CLI | ❌ | ✅ | ✅ |
 
 > 💡 **选 readme-ai** 如果你要独立 CLI。**选本 Skill** 如果你用 Codex/Claude Code。

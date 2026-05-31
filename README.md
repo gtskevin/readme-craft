@@ -4,7 +4,7 @@
 
 <br/>
 
-**One prompt → 22 files → 15 quality checks → Zero manual work**
+**One prompt → Professional README + SVG + Community files → 7 quality checks → Zero manual work**
 
 <br/>
 
@@ -71,7 +71,7 @@ A Claude Code Skill that reviews...
 
 <div align="center">
 
-**One prompt. 12 new files. 14/15 quality checks passed. Zero manual work.**
+**One prompt. All essential files. Quality-checked. Zero manual work.**
 
 **[→ See the full beautified repo →](https://github.com/gtskevin/ai-native-review)**
 
@@ -119,16 +119,23 @@ Then open Codex or Claude Code and type:
 🔍 Analyzing repository...
    → Type: NPM Library (TypeScript)
    → Target audience: Frontend developers
+   → Repo status: New (< 50 stars)
    → 3 competitors detected
 
-📝 Generating showcase files...
-   → README.md (16 sections, conversion-optimized)
-   → .github/assets/logo.svg (dark mode compatible)
-   → .github/assets/banner.svg (800×200)
-   → .github/social-preview.svg (1200×630 og:image)
-   → 5 community files
+📝 Generating P0 files...
+   → README.md (hero + pitch + highlights + quick start + how it works)
+   → assets/banner.svg (dark mode compatible, 800×200)
 
-✅ Quality check: 15/15 passed
+📝 Generating P1 files...
+   → .github/social-preview.svg (1200×630 og:image)
+   → badges (npm version, license, build)
+
+📝 Generating P2 files...
+   → Issue + PR templates
+   → CONTRIBUTING.md
+   → GitHub topics (15 recommended)
+
+✅ Quality check: 7/7 passed
 🚀 Ready to push!
 ```
 
@@ -138,18 +145,19 @@ Then open Codex or Claude Code and type:
 
 ## 🎯 What Gets Generated
 
-| File | Purpose |
-|------|---------|
-| 📝 `README.md` | 16-section conversion-optimized showcase |
-| 🎨 `logo.svg` + `banner.svg` | Auto-generated, dark-mode-aware |
-| 📱 `social-preview.svg` | og:image (1200×630) for Twitter/Slack/WeChat |
-| 🏷️ Badge URLs | shields.io badges matched to your ecosystem |
-| 📋 Issue templates | Bug report + feature request |
-| 🔄 PR template | Structured pull request checklist |
-| 📖 `CONTRIBUTING.md` | Welcoming contribution guide |
-| 🔒 `SECURITY.md` | Vulnerability reporting policy |
-| 🤝 `CODE_OF_CONDUCT.md` | Contributor Covenant v2.1 |
-| 🏷️ Topics | Up to 20 GitHub Topics for discoverability |
+Generated in priority order — P0 first, then P1/P2 if context allows:
+
+| Priority | File | Purpose |
+|----------|------|---------|
+| **P0** | `README.md` | Hero + pitch + highlights + quick start + how it works |
+| **P0** | `banner.svg` | Auto-generated, dark-mode-aware banner |
+| **P1** | `social-preview.svg` | og:image (1200×630) for Twitter/Slack/WeChat |
+| **P1** | Badges | shields.io badges matched to your ecosystem |
+| **P2** | Issue templates | Bug report + feature request |
+| **P2** | PR template | Structured pull request checklist |
+| **P2** | `CONTRIBUTING.md` | Welcoming contribution guide |
+| **P2** | GitHub Topics | Up to 20 topics for discoverability |
+| On request | `CODE_OF_CONDUCT.md`, `SECURITY.md`, `FUNDING.yml` | Additional community files |
 
 ---
 
@@ -204,8 +212,10 @@ Visitor lands on repo
 | AI Agent integration | ✅ Native | ❌ CLI | ❌ Web |
 | SVG auto-generation | ✅ 3 types | ❌ | ⚠️ |
 | Dark mode support | ✅ | ❌ | ❌ |
-| Community files | ✅ 7 | ❌ | ❌ |
-| Quality self-check | ✅ 15 pts | ❌ | ❌ |
+| Community files | ✅ On demand | ❌ | ❌ |
+| Quality self-check | ✅ 7 pts | ❌ | ❌ |
+| New vs established repo strategy | ✅ | ❌ | ❌ |
+| Bilingual README support | ✅ | ❌ | ❌ |
 | GitHub SEO | ✅ | ❌ | ❌ |
 | Standalone CLI | ❌ | ✅ | ✅ |
 
