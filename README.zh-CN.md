@@ -77,11 +77,30 @@
 
 ⏱️ **30 秒上手**
 
+**方式 A — 一键安装（推荐）：**
+
 ```bash
-git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-showcase
+curl -fsSL https://raw.githubusercontent.com/gtskevin/repo-showcase/main/install.sh | bash
 ```
 
-在任意项目中对 Codex / Claude Code 说：
+自动检测 Codex 和/或 Claude Code，安装到正确位置。
+
+**方式 B — Codex 内直接安装：**
+
+```
+Install skill from gtskevin/repo-showcase
+```
+
+**方式 C — 手动安装：**
+
+```bash
+git clone https://github.com/gtskevin/repo-showcase.git
+mkdir -p ~/.codex/skills/repo-showcase
+cp -r repo-showcase/* ~/.codex/skills/repo-showcase/
+rm -rf repo-showcase
+```
+
+然后在 Codex / Claude Code 中说：
 
 ```
 "发布前帮我美化一下 GitHub 仓库"

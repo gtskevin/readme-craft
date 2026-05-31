@@ -83,11 +83,30 @@ A Claude Code Skill that reviews...
 
 ⏱️ **30 seconds from install to first use**
 
+**Option A — One-line install (recommended):**
+
 ```bash
-git clone https://github.com/gtskevin/repo-showcase.git ~/.codex/skills/repo-showcase
+curl -fsSL https://raw.githubusercontent.com/gtskevin/repo-showcase/main/install.sh | bash
 ```
 
-Open Codex or Claude Code in any project and type:
+Auto-detects Codex and/or Claude Code and installs to the right location.
+
+**Option B — Codex skill installer (if in Codex):**
+
+```
+Install skill from gtskevin/repo-showcase
+```
+
+**Option C — Manual install:**
+
+```bash
+git clone https://github.com/gtskevin/repo-showcase.git
+mkdir -p ~/.codex/skills/repo-showcase
+cp -r repo-showcase/* ~/.codex/skills/repo-showcase/
+rm -rf repo-showcase
+```
+
+Then open Codex or Claude Code and type:
 
 ```
 "Beautify my GitHub repo before I publish it"
