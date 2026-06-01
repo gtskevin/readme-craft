@@ -247,18 +247,6 @@ Codex 和 Claude Code 都支持！任何支持 SKILL.md 的 AI Agent 都可以�
 
 ---
 
-## ⭐ Star History
-
-<div align="center">
-
-[![GitHub Stars](https://img.shields.io/github/stars/gtskevin/readme-craft?style=for-the-badge&logo=github&color=f59e0b&label=%E2%AD%90%20Star%20History)](https://star-history.com/#gtskevin/readme-craft&Date)
-
-**[↑ Click to view interactive Star History chart →](https://star-history.com/#gtskevin/readme-craft&Date)**
-
-</div>
-
----
-
 <div align="center">
 
 **Built with ❤️ by [@gtskevin](https://github.com/gtskevin)** · 让每个仓库都闪闪发光 ✨

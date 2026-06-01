@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/gtskevin/readme-craft/main/.github/assets/banner.svg" width="600" alt="Repo Showcase — Transform any GitHub repo into a star-attracting showcase" />
+<img src="https://raw.githubusercontent.com/gtskevin/readme-craft/main/.github/assets/banner.svg" width="600" alt="Readme Craft — Transform any GitHub repo into a star-attracting showcase" />
 
 <br/>
 
@@ -101,9 +101,9 @@ Install skill from gtskevin/readme-craft
 
 ```bash
 git clone https://github.com/gtskevin/readme-craft.git
-mkdir -p ~/.codex/skills/repo-showcase
-cp -r repo-showcase/* ~/.codex/skills/repo-showcase/
-rm -rf repo-showcase
+mkdir -p ~/.codex/skills/readme-craft
+cp -r readme-craft/* ~/.codex/skills/readme-craft/
+rm -rf readme-craft
 ```
 
 Then open Codex or Claude Code and type:
@@ -170,19 +170,19 @@ Visitor lands on repo
     │
     ▼
 ┌─────────────────────────────────────────────┐
-│  3 seconds: Hook (banner + tagline)         │ ← repo-showcase generates
+│  3 seconds: Hook (banner + tagline)         │ ← readme-craft generates
 │  If boring → bounce (60% of visitors)       │
 └─────────────────────────────────────────────┘
     │ Engaged
     ▼
 ┌─────────────────────────────────────────────┐
-│  10 seconds: Trust (badges + stars + proof) │ ← repo-showcase generates
+│  10 seconds: Trust (badges + stars + proof) │ ← readme-craft generates
 │  If no proof → skeptical exit (30%)         │
 └─────────────────────────────────────────────┘
     │ Convinced
     ▼
 ┌─────────────────────────────────────────────┐
-│  30 seconds: Try (Quick Start)              │ ← repo-showcase generates
+│  30 seconds: Try (Quick Start)              │ ← readme-craft generates
 │  If too hard → bookmark & forget (50%)      │
 └─────────────────────────────────────────────┘
     │ Successful
@@ -290,22 +290,8 @@ Every contribution matters — from typo fixes to new repo type templates.
 
 ---
 
-## ⭐ Star History
-
-<div align="center">
-
-[![GitHub Stars](https://img.shields.io/github/stars/gtskevin/readme-craft?style=for-the-badge&logo=github&color=f59e0b&label=%E2%AD%90%20Star%20History)](https://star-history.com/#gtskevin/readme-craft&Date)
-
-**[↑ Click to view interactive Star History chart →](https://star-history.com/#gtskevin/readme-craft&Date)**
-
-</div>
-
----
-
 <div align="center">
 
 **Built with ❤️ by [@gtskevin](https://github.com/gtskevin)** · Making every repo shine ✨
-
-[⬆ Back to top](#-repo-showcase)
 
 </div>

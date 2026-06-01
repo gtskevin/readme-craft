@@ -20,7 +20,7 @@
   <path d="M50 40 L53 48 L61 48 L55 53 L57 61 L50 56 L43 61 L45 53 L39 48 L47 48 Z" fill="white" opacity="0.3"/>
   <path d="M740 130 L742 136 L749 136 L744 140 L746 146 L740 142 L734 146 L736 140 L731 136 L738 136 Z" fill="white" opacity="0.2"/>
   <!-- Text -->
-  <text x="400" y="85" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="bold" fill="white">✨ Repo Showcase</text>
+  <text x="400" y="85" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="bold" fill="white">✨ Readme Craft</text>
   <text x="400" y="125" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="rgba(255,255,255,0.85)">Transform any GitHub repo into a star-attracting showcase</text>
   <text x="400" y="160" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">Codex Skill • Claude Code • AI Agent</text>
 </svg>
